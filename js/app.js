@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
   // Or with jQuery
 
   $(document).ready(function(){
-    $('.carousel').carousel();
+    $('.carousel.carousel-slider').carousel({
+      indicators:true
+    });
   });
 
